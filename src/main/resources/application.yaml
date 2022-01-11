@@ -1,6 +1,6 @@
 spring:
   application:
-    name: MOVIE-INFO
+    name: MOVIE-INFO-SERVICE
 
 
 server:
