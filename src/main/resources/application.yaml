@@ -9,7 +9,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://172.17.0.2:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://discovery-service-svc:8761}
   instance:
     preferIpAddress: true
 
